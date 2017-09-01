@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -108,9 +108,9 @@
       <Project>{6d2bac0f-6460-4ec6-9105-58a006ecad86}</Project>
       <Name>MarketFinder.AnalyticsService</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MarketFinder.MakretManagementService\MarketFinder.MakretManagementService.csproj">
+    <ProjectReference Include="..\MarketFinder.MarketManagementService\MarketFinder.MarketManagementService.csproj">
       <Project>{cefe6fb1-4575-43b8-a065-0f098186d5c7}</Project>
-      <Name>MarketFinder.MakretManagementService</Name>
+      <Name>MarketFinder.MarketManagementService</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

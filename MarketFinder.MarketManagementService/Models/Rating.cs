@@ -1,4 +1,4 @@
-﻿namespace MarketFinder.MakretManagementService.Models
+﻿namespace MarketFinder.MarketManagementService.Models
 {
     public class Rating
     {

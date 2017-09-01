@@ -6,9 +6,9 @@ using System.Net;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
-using MarketFinder.MakretManagementService.Models;
+using MarketFinder.MarketManagementService.Models;
 
-namespace MarketFinder.MakretManagementService.Controllers
+namespace MarketFinder.MarketManagementService.Controllers
 {
     public class RatingsController : ApiController
     {

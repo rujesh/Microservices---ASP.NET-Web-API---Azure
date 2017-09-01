@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.Entity;
 
-namespace MarketFinder.MakretManagementService.Models
+namespace MarketFinder.MarketManagementService.Models
 {
     public class MarketManagementServiceContext : DbContext
     {
@@ -18,7 +18,7 @@ namespace MarketFinder.MakretManagementService.Models
 
         public System.Data.Entity.DbSet<Market> Markets { get; set; }
 
-        public System.Data.Entity.DbSet<MarketFinder.MakretManagementService.Models.Rating> Ratings { get; set; }
+        public System.Data.Entity.DbSet<MarketFinder.MarketManagementService.Models.Rating> Ratings { get; set; }
 
     }
 }
